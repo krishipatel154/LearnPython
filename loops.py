@@ -9,3 +9,14 @@ while i <= 20:
     i+=1
 print("Done")
 
+print("For loop:- ")
+list1 = ["apple","mango","banana"]
+for i in list1:
+    print(i)
+
+print("Nested for loop:-")
+list1=["white","black","orange"]
+list2=["chair","laptop","bag"]
+for i in list1:
+    for j in list2:
+        print(i,j)
