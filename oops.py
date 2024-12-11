@@ -4,7 +4,9 @@ class Books:
     def gain_knowlage(self):
         print("Books are used to gain knowlage")
 
+# how to create object of class
 b1 = Books()
+# how to access the method of class
 b1.gain_knowlage()
 
 # getter and setter
@@ -20,5 +22,13 @@ class Phone:
 p1 = Phone()
 p1.set_color("blue")
 p1.set_price(20000)
-p1.get_color()
-p1.get_price()
+print(p1.get_color())
+print(p1.get_price())
+
+class Vehicle:
+    def can_drive(self,speed):
+        self.speed = speed
+        print(speed)
+
+v1 = Vehicle()
+v1.can_drive(60)
